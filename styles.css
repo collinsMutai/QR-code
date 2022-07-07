@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+* {
+    text-align: center;
+    
+}
+body {
+    background-color: #D5E1EF;
+   
+}
+#container-div {
+    background-color: #fff !important;
+    width: 16em;
+    height: 23em;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+img{
+    border-radius: 10%;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+p {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+
+/* media queries */
+@media (max-width: 600px) {
+    /* * {
+        text-align: center;
+        
+    } */
+    #container-div {
+        background-color: #fff !important;
+        width: 15em;
+        height: 22em;
+        margin-left: 60px;
+        margin-top: 35px;
+        border-radius: 10%;
+        padding: 5px;
+       
+    }
+    h1 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+        
+    }
+    img {
+        width: 230px;
+    }
+  }
